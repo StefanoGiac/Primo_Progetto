@@ -9,6 +9,7 @@ int contatore;
 int esperimento;
 int continua_esperimento;
 int continua_esperimento_2;
+int continua_esperimento_3;
 
 // put function declarations here:
 float myFunction(float, float);
