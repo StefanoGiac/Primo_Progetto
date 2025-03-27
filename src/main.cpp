@@ -27,21 +27,16 @@ void loop()
 {
   // put your main code here, to run repeatedly:
   digitalWrite(LedPin,HIGH);
-  delay(1000);
+  delay(500);
   digitalWrite(LedPin,LOW);
-  delay(1000);
-  calcolo1 = somma(1,2);
-  calcolo2 = differenza(5,6);
-  calcolo3 = myFunction(1,3);
-  Serial.print ("Calcolo1 =");
-  Serial.print (calcolo1);
-  contatore +=1;
+  delay(500);
+
   esperimento +=contatore;
-  continua_esperimento += esperimento;
-  // faccio una divisione
-  calcolo1 = divisione(2,3);
-  Serial.println (calcolo1);
-  resto = calcolo_resto (5,3);
+  resto = calcolo_resto (contatore,5);
+  Serial.print ("Resto = ");
+  Serial.println (resto);
+
+  contatore +=1;
 }
 
 // put function definitions here:
