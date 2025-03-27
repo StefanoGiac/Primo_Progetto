@@ -10,6 +10,8 @@ int esperimento;
 int continua_esperimento;
 int continua_esperimento_2;
 int continua_esperimento_3;
+int resto;
+
 
 // put function declarations here:
 float myFunction(float, float);
@@ -39,7 +41,7 @@ void loop()
   // faccio una divisione
   calcolo1 = divisione(2,3);
   Serial.println (calcolo1);
-
+  resto = calcolo_resto (5,3);
 }
 
 // put function definitions here:

@@ -17,3 +17,8 @@ float divisione (float a, float b)
     else
         return 0;
 }
+
+int calcolo_resto (int a, int b)
+{
+    return a % b;
+}
