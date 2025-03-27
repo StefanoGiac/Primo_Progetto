@@ -7,9 +7,6 @@ int calcolo2;
 int calcolo3;
 int contatore;
 int esperimento;
-int continua_esperimento;
-int continua_esperimento_2;
-int continua_esperimento_3;
 int resto;
 
 
