@@ -15,10 +15,10 @@ int resto;
 
 // put function declarations here:
 float myFunction(float, float);
+float result;
 
 void setup() {
   // put your setup code here, to run once:
-  float result = myFunction(2, 3);
   pinMode(LedPin,OUTPUT);
   Serial.begin(9600);
 }
@@ -35,6 +35,8 @@ void loop()
   resto = calcolo_resto (contatore,5);
   Serial.print ("Resto = ");
   Serial.println (resto);
+
+  result=myFunction(2,3);
 
   contatore +=1;
 }
