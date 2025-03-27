@@ -14,7 +14,7 @@ int resto;
 
 
 // put function declarations here:
-float myFunction(float, float);
+
 
 void setup() {
   // put your setup code here, to run once:
@@ -39,8 +39,3 @@ void loop()
   contatore +=1;
 }
 
-// put function definitions here:
-float myFunction(float x, float y) 
-{
-  return x * y;
-}
