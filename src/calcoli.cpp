@@ -22,3 +22,8 @@ int calcolo_resto (int a, int b)
 {
     return a % b;
 }
+
+float myFunction(float x, float y) 
+{
+  return x * y;
+}
